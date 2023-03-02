@@ -1,25 +1,5 @@
 # Installation guide
 
-## Setup git-lfs
-
-```bash
-# for mac
-brew install git-lfs
-
-# for linux
-sudo apt-get install git-lfs
-```
-
-Turn it on and then pull the repository again:
-
-```bash
-cd <project root>
-
-# pull files from git lfs
-git lfs install
-git pull
-```
-
 ## Install main dependencies
 
 There are two options: a) conda-based install or b) pip-based. The former contains python virtual environment management, for the latter you have to manage it on your own (see [understanding pip and conda](https://www.anaconda.com/blog/understanding-conda-and-pip) for details).
@@ -27,7 +7,7 @@ There are two options: a) conda-based install or b) pip-based. The former contai
 ### (Recommended) Install with conda/mamba
 
 1. Install `conda` or even better `mamba`: [Mamba + Miniforge = Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html), or [Miniforge](https://github.com/conda-forge/miniforge)
-   1. If you chose mamba, just replace `conda` to `mamba` for the rest of the scripts below or just add an alias `alias conda=mamba` to your .bashrc
+   1. If you chose mamba, just replace `conda` to `mamba` for the rest of the scripts below or just add an alias `alias conda=mamba` to your .bashrc, .zshrc or alike.
 
 2. Init conda for your shell:
 
